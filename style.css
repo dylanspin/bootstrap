@@ -7,8 +7,60 @@ html{
 
 
 .page-header{
-
+margin-top: -5px;
 }
 .container{
 color: white;
+}
+button.header{
+  height: 50px;
+  border: none;
+  width: 150px;
+  background-color: black;
+  color: white;
+  font-size: 150%;
+}
+button.header:hover{
+background-color: #F31928;
+}
+input[type=image].ops{
+  height: 100px;
+  width: 100px;
+  border: none;
+}
+input[type=image].ops:hover{
+  height: 120px;
+  width: 120px;
+}
+button.locatie_2{
+  line-height: 0px;
+}
+div.mijnheader{
+  background-color: black;
+  height: 50px;
+  width: 1800px;
+}
+div.mijnheader{
+  background-color: black;
+  height: 50px;
+  width: 1800px;
+}
+div.grijs{
+  position: static;
+  background-color: #2A2929;
+  height: 40px;
+  width: 1800px;
+}
+div.zwart{
+  margin-left: -250px;
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 1800px;
+}
+div.locatie{
+margin-left: 300px;
+}
+div.copy{
+margin-left: 500px;
 }
