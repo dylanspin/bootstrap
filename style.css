@@ -12,6 +12,9 @@ margin-top: -5px;
 .container{
 color: white;
 }
+h6.date{
+  color: gray;
+}
 button.header{
   height: 50px;
   border: none;
@@ -32,8 +35,41 @@ input[type=image].ops:hover{
   height: 120px;
   width: 120px;
 }
+div.title{
+  margin-top: -20px;
+}
 button.locatie_2{
   line-height: 0px;
+}
+div.locatie_news{
+  margin-top: -365px;
+  margin-left: 600px;
+}
+div.update{
+  height: 30px;
+  width: 100px;
+  margin-top: -10px;
+  border-radius: 0px 0px 10px 0px;
+  color: White;
+  background-color:#F31928;
+}
+div.border{
+  margin-left: 1050px;
+  margin-top: -10px;
+  text-align: center;
+  width: 300px;
+  height: 430px;
+}
+div.news{
+  background: black;
+  color: white;
+  margin-left:;
+  margin-top:;
+  text-align: center;
+  border: 1px solid White;
+  border-radius: 0px 15px 15px 15px;
+  width: 400px;
+  height: 100px;
 }
 div.mijnheader{
   background-color: black;
@@ -52,15 +88,20 @@ div.grijs{
   width: 1800px;
 }
 div.zwart{
-  margin-left: -250px;
+  margin-left: -650px;
+  margin-top: 67px;
   background-color: black;
   color: white;
   height: 300px;
   width: 1800px;
 }
+h1.ops{
+  color: white;
+  margin-left: -900px;
+}
 div.locatie{
-margin-left: 300px;
+margin-left: 50px;
 }
 div.copy{
-margin-left: 500px;
+margin-left: -100px;
 }
