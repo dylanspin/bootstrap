@@ -37,9 +37,6 @@ input[type=image].ops:hover{
   height: 120px;
   width: 120px;
 }
-a{
-  text-decoration: none;
-}
 div.title{
   margin-top: -20px;
 }
@@ -93,6 +90,8 @@ div.grijs{
   width: 1800px;
 }
 div.zwart{
+  position: absolute bottom;
+  bottom: 5px;
   margin-left: -650px;
   margin-top: 67px;
   background-color: black;
