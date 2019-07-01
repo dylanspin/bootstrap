@@ -12,4 +12,7 @@ function link(t){
   if(id == 6){window.location.href ="p6.html";}
   if(id == 7){window.location.href ="p7.html";}
   if(id == 8){window.location.href ="p8.html";}
+  if(id == 9){window.location.href ="news.html";}
+  if(id == 10){window.location.href ="p8.html";}
+  if(id == 11){window.location.href ="p8.html";}
 }

@@ -18,8 +18,6 @@ h6.date{
   color: gray;
 }
 button.header{
-  text-decoration-color: none;
-  text-decoration:none;
   height: 50px;
   border: none;
   width: 150px;
@@ -41,6 +39,11 @@ input[type=image].ops:hover{
 }
 a{
   text-decoration: none;
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
 }
 div.title{
   margin-top: -20px;
@@ -109,5 +112,5 @@ div.locatie{
 margin-left: 50px;
 }
 div.copy{
-margin-left: -100px;
+margin-left: -250px;
 }

@@ -1,4 +1,5 @@
 html{
+  overflow-x:hidden;
 }
 .jumbotron{
   background-color:black;
@@ -8,6 +9,7 @@ html{
 
 .page-header{
 margin-top: -5px;
+width: 2000px;
 }
 .container{
 color: white;
@@ -15,9 +17,12 @@ color: white;
 h6.date{
   color: gray;
 }
+h1.maps{
+  opacity: 10;
+  color: white;
+  font-size: 200%;
+}
 button.header{
-  text-decoration-color: none;
-  text-decoration:none;
   height: 50px;
   border: none;
   width: 150px;
@@ -37,6 +42,20 @@ input[type=image].ops:hover{
   height: 120px;
   width: 120px;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+h3{
+  text-align: left;
+}
+div.map{
+
+}
 div.title{
   margin-top: -20px;
 }
@@ -47,16 +66,21 @@ div.locatie_news{
   margin-top: -365px;
   margin-left: 600px;
 }
-div.update{
-  height: 30px;
-  width: 100px;
-  margin-top: -10px;
+div.hoek{
+  height: 40px;
+  width: 200px;
+  margin-top: 30px;
+  position:sticky;
+  z-index: 1;
   border-radius: 0px 0px 10px 0px;
   color: White;
-  background-color:#F31928;
+  background-color:#43ABA7;
+}
+div.pic{
+  margin-top: -39px;
 }
 div.border{
-  margin-left: 1050px;
+  margin-left: 100px;
   margin-top: -10px;
   text-align: center;
   width: 300px;
@@ -76,7 +100,6 @@ div.news{
 div.mijnheader{
   background-color: black;
   height: 50px;
-  width: 1800px;
 }
 div.mijnheader{
   background-color: black;
@@ -87,25 +110,21 @@ div.grijs{
   position: static;
   background-color: #2A2929;
   height: 40px;
-  width: 1800px;
+  width: 2000px;
 }
 div.zwart{
-  position: absolute bottom;
-  bottom: 5px;
-  margin-left: -650px;
-  margin-top: 67px;
+  margin-left: 0px;
+  position: absolute;
+  bottom: -2100px;
   background-color: black;
   color: white;
   height: 300px;
-  width: 1800px;
+  width: 2000px;
 }
-h1.ops{
-  color: white;
-  margin-left: -900px;
-}
+
 div.locatie{
 margin-left: 50px;
 }
 div.copy{
-margin-left: -100px;
+margin-left: 250px;
 }
