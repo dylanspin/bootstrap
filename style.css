@@ -1,4 +1,5 @@
 html{
+  overflow-x:hidden;
 }
 .jumbotron{
   background-color:black;
@@ -8,6 +9,7 @@ html{
 
 .page-header{
 margin-top: -5px;
+width: 2000px;
 }
 .container{
 color: white;
@@ -79,7 +81,6 @@ div.news{
 div.mijnheader{
   background-color: black;
   height: 50px;
-  width: 1800px;
 }
 div.mijnheader{
   background-color: black;
@@ -90,7 +91,7 @@ div.grijs{
   position: static;
   background-color: #2A2929;
   height: 40px;
-  width: 1800px;
+  width: 2000px;
 }
 div.zwart{
   margin-left: -650px;
@@ -98,7 +99,7 @@ div.zwart{
   background-color: black;
   color: white;
   height: 300px;
-  width: 1800px;
+  width: 2000px;
 }
 h1.ops{
   color: white;
