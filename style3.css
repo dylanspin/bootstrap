@@ -1,6 +1,9 @@
 html{
   overflow-x:hidden;
 }
+body {
+font-family: 'Open Sans', sans-serif;
+}
 .jumbotron{
   background-color:black;
   color: white;
@@ -12,13 +15,12 @@ width: 2000px;
 .container{
 color: white;
 }
+h1.groot{
+  font-size: 550%;
+  color: white;
+}
 h6.date{
   color: gray;
-}
-h1.maps{
-  opacity: 10;
-  color: white;
-  font-size: 200%;
 }
 button.header{
   height: 50px;
@@ -31,6 +33,15 @@ button.header{
 button.header:hover{
 background-color: #F31928;
 }
+input[type=image].ops{
+  height: 100px;
+  width: 100px;
+  border: none;
+}
+input[type=image].ops:hover{
+  height: 120px;
+  width: 120px;
+}
 a{
   text-decoration: none;
   color: white;
@@ -39,41 +50,53 @@ a:hover{
   text-decoration: none;
   color: white;
 }
-h3{
-  text-align: left;
-}
-div.map{
-
-}
 div.title{
-  margin-top: -20px;
+  margin-top: -70px;
+  margin-left: 120px;
 }
 button.locatie_2{
   line-height: 0px;
 }
+div.locatie_news{
+  margin-left: 450px;
+}
+div.buttons{
+  margin-left: -3000px;
+}
+div.info{
+  text-align: center;
+}
 div.hoek{
-  height: 40px;
-  width: 250px;
-  margin-top: 30px;
-  position:sticky;
-  z-index: 1;
+  height: 60px;
+  width: 200px;
+  margin-top: -20px;
   border-radius: 0px 0px 10px 0px;
   color: White;
-  background-color:#353232;
-}
-div.pic{
-  margin-top: -39px;
+  background-color:#F31928;
 }
 div.border{
-  margin-left: 100px;
+  margin-left: 1050px;
   margin-top: -10px;
   text-align: center;
   width: 300px;
   height: 430px;
 }
+div.news{
+  background: black;
+  color: white;
+  margin-left:;
+  margin-top:;
+  text-align: center;
+  border: 1px solid White;
+  border-radius: 0px 15px 15px 15px;
+  width: 800px;
+  height: 150px;
+}
 div.mijnheader{
   background-color: black;
   height: 50px;
+}
+div.mijnheader{
   background-color: black;
   height: 50px;
   width: 1800px;
@@ -87,11 +110,15 @@ div.grijs{
 div.zwart{
   margin-left: 0px;
   position: absolute;
-  bottom: -4000px;
+  bottom: -1200px;
   background-color: black;
   color: white;
   height: 300px;
   width: 2000px;
+}
+h1.ops{
+  color: white;
+  margin-left: -900px;
 }
 div.locatie{
 margin-left: 50px;
