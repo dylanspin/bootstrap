@@ -1,6 +1,9 @@
 html{
   overflow-x:hidden;
 }
+body{
+  background-color: #232121;
+}
 .jumbotron{
   background-color:black;
   color: white;
@@ -29,7 +32,7 @@ button.header{
   font-size: 150%;
 }
 button.header:hover{
-background-color: #F31928;
+background-color: #60287A;
 }
 input[type=image].ops{
   height: 100px;
@@ -52,7 +55,6 @@ h3{
   text-align: left;
 }
 div.map{
-
 }
 div.title{
   margin-top: -20px;
@@ -100,7 +102,7 @@ div.grijs{
 div.zwart{
   margin-left: 0px;
   position: absolute;
-  bottom: -4000px;
+  bottom: -3950px;
   background-color: black;
   color: white;
   height: 300px;

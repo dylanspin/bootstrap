@@ -1,10 +1,6 @@
 html{
   overflow-x:hidden;
 }
-.jumbotron{
-  background-color:black;
-  color: white;
-}
 body {
 font-family: 'Open Sans', sans-serif;
 }
@@ -14,6 +10,10 @@ width: 2000px;
 }
 .container{
 color: white;
+}
+h1.groot{
+  font-size: 550%;
+  color: white;
 }
 h6.date{
   color: gray;
@@ -29,14 +29,16 @@ button.header{
 button.header:hover{
 background-color: #60287A;
 }
-input[type=image].ops{
-  height: 100px;
-  width: 100px;
-  border: none;
+button.buttons{
+  height: 50px;
+  border: 1px solid #60287A;
+  width: 150px;
+  background-color: black;
+  color: white;
+  font-size: 150%;
 }
-input[type=image].ops:hover{
-  height: 120px;
-  width: 120px;
+button.buttons:hover{
+background-color: #60287A;
 }
 a{
   text-decoration: none;
@@ -46,23 +48,49 @@ a:hover{
   text-decoration: none;
   color: white;
 }
+div.skin{
+  height: 390px;
+  width: 300px;
+  border: 1px solid white;
+  background-color: #232121;
+  color: white;
+  margin-left: 100px;
+}
+.skin:hover{
+  border:none;
+}
+div.next{
+  text-align: center;
+  margin-left: 350px;
+}
 div.title{
-  margin-top: -20px;
+  margin-top: -70px;
+  margin-left: 120px;
 }
 button.locatie_2{
   line-height: 0px;
 }
-div.locatie_news{
-  margin-top: -365px;
-  margin-left: 600px;
+div.links{
+  margin-left: -800px;
 }
-div.update{
-  height: 30px;
-  width: 100px;
-  margin-top: -10px;
+div.rechts{
+  margin-top: -50px;
+  margin-left: 400px;
+}
+div.locatie_news{
+  margin-left: 450px;
+}
+div.info{
+  text-align: center;
+  margin-top: -400px;
+}
+div.hoek{
+  height: 60px;
+  width: 200px;
+  margin-top: -20px;
   border-radius: 0px 0px 10px 0px;
   color: White;
-  background-color:#F31928;
+  background-color:#60287A;
 }
 div.border{
   margin-left: 1050px;
@@ -72,15 +100,15 @@ div.border{
   height: 430px;
 }
 div.news{
-  background: black;
+  background: #232121;
   color: white;
   margin-left:;
   margin-top:;
   text-align: center;
   border: 1px solid White;
   border-radius: 0px 15px 15px 15px;
-  width: 400px;
-  height: 100px;
+  width: 800px;
+  height: 150px;
 }
 div.mijnheader{
   background-color: black;
@@ -98,20 +126,24 @@ div.grijs{
   width: 2000px;
 }
 div.zwart{
-  margin-left: -650px;
-  margin-top: 67px;
+  margin-left: 0px;
+  position: absolute;
+  bottom: -1200px;
   background-color: black;
   color: white;
   height: 300px;
   width: 2000px;
 }
-h1.ops{
+div.zwart2{
+  margin-left: 0px;
+  position: absolute;
+  bottom: -1500px;
+  background-color: black;
   color: white;
-  margin-left: -900px;
+  height: 300px;
+  width: 2000px;
 }
-div.locatie{
-margin-left: 50px;
-}
+
 div.copy{
-margin-left: -250px;
+margin-left: 250px;
 }

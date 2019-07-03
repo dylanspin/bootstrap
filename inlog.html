@@ -9,13 +9,12 @@
     <link rel="stylesheet" type="tex/css" href="css/bootstrap.css">
     <link rel="shortcut icon"type="image/png" href="pic/logo2.png">
   </head>
-  <body background = "pic/pic5.jpg"><!--achtergrond foto--->
+  <body background = "pic/pic4.jpg"><!--achtergrond foto--->
 
     <div class="grijs">
       <div class="locatie_1">
       </div>
     </div>
-
     <div class="page-header">
         <div class="mijnheader">
           <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12" style="width:80px;">
@@ -36,7 +35,25 @@
             <button type="submit" class="header"><a href="news.html">News</a></button>
             <button type="submit" class="header"><a href="index.html">Menu</a></button>
         </div>
-    </div><br>
+    </div>
+
+  <div class="inlog">
+    <h1 class="groot">Aanmelden</h1>
+    <div class="input">
+      <form class="" action="index.html" method="post">
+        <label><h2>Voornaam : </h2></label>           <input type="text" id="voornaam" name="voornaam" value="" placeholder="voornaam"><br>
+        <label><h2>Achternaam : </h2></label>         <input type="text" id="achternaam" name="achternaam" value="" placeholder="achternaam"><br>
+        <label><h2>Geboortedatum : </h2></label>      <input type="text" id="geboortedatum" name="geboortedatum" value="" placeholder="geboortedatum"><br>
+        <label><h2>  E-mail : </h2></label>           <input type="text" id="email"name="E-mail" value="" placeholder="E-mail"><br>
+        <label><h2>wachtwoord : </h2></label>         <input type="text" id="wachtwoord1" name="wachtwoord1" value="" placeholder="wachtwoord"><br>
+        <label><h2>herhaal wachtwoord : </h2></label> <input type="text" id="wachtwoord2" name="wachtwoord2" value="" placeholder="wachtwoord"><br>
+
+        <button  class="header" type="button" name="stuur" onclick="inlog()">Stuur</button>
+      </form>
+    </div>
+
+    <p id="print"></p>
+  </div>
 
     <div class="zwart2"><br>
       <div class="locatie">
