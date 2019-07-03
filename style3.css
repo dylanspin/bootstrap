@@ -40,6 +40,15 @@ button.buttons{
 button.buttons:hover{
 background-color: #60287A;
 }
+input[type=submit]{
+  height: 20px;
+  width: 400px;
+  border: none;
+}
+input[type=text]{
+  height: 40px;
+  width: 400px;
+}
 a{
   text-decoration: none;
   color: white;
@@ -47,6 +56,11 @@ a{
 a:hover{
   text-decoration: none;
   color: white;
+}
+label{
+  font-size: 300%;
+  color: white;
+  text-align: right;
 }
 div.skin{
   height: 390px;
@@ -56,11 +70,19 @@ div.skin{
   color: white;
   margin-left: 1500px;
 }
+
 .skin:hover{
   border:none;
 }
 div.next{
   text-align: center;
+}
+
+div.inlog{
+  height: 600px;
+  width: 80%;
+  margin-left: 450px;
+  color: black;
 }
 div.title{
   margin-top: -70px;
@@ -128,6 +150,15 @@ div.zwart{
   margin-left: 0px;
   position: absolute;
   bottom: -1200px;
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 2000px;
+}
+div.zwart2{
+  margin-left: 0px;
+  position: absolute;
+  bottom: -200px;
   background-color: black;
   color: white;
   height: 300px;
