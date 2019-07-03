@@ -4,10 +4,6 @@ html{
 body {
 font-family: 'Open Sans', sans-serif;
 }
-.jumbotron{
-  background-color:black;
-  color: white;
-}
 .page-header{
 margin-top: -5px;
 width: 2000px;
@@ -31,16 +27,18 @@ button.header{
   font-size: 150%;
 }
 button.header:hover{
-background-color: #F31928;
+background-color: #60287A;
 }
-input[type=image].ops{
-  height: 100px;
-  width: 100px;
-  border: none;
+button.buttons{
+  height: 50px;
+  border: 1px solid #60287A;
+  width: 150px;
+  background-color: black;
+  color: white;
+  font-size: 150%;
 }
-input[type=image].ops:hover{
-  height: 120px;
-  width: 120px;
+button.buttons:hover{
+background-color: #60287A;
 }
 a{
   text-decoration: none;
@@ -50,6 +48,20 @@ a:hover{
   text-decoration: none;
   color: white;
 }
+div.skin{
+  height: 390px;
+  width: 300px;
+  border: 1px solid white;
+  background-color: #232121;
+  color: white;
+  margin-left: 1500px;
+}
+.skin:hover{
+  border:none;
+}
+div.next{
+  text-align: center;
+}
 div.title{
   margin-top: -70px;
   margin-left: 120px;
@@ -57,14 +69,19 @@ div.title{
 button.locatie_2{
   line-height: 0px;
 }
+div.links{
+  margin-left: -800px;
+}
+div.rechts{
+  margin-top: -50px;
+  margin-left: 400px;
+}
 div.locatie_news{
   margin-left: 450px;
 }
-div.buttons{
-  margin-left: -3000px;
-}
 div.info{
   text-align: center;
+  margin-top: -400px;
 }
 div.hoek{
   height: 60px;
@@ -72,7 +89,7 @@ div.hoek{
   margin-top: -20px;
   border-radius: 0px 0px 10px 0px;
   color: White;
-  background-color:#F31928;
+  background-color:#60287A;
 }
 div.border{
   margin-left: 1050px;
@@ -82,7 +99,7 @@ div.border{
   height: 430px;
 }
 div.news{
-  background: black;
+  background: #232121;
   color: white;
   margin-left:;
   margin-top:;
@@ -116,13 +133,7 @@ div.zwart{
   height: 300px;
   width: 2000px;
 }
-h1.ops{
-  color: white;
-  margin-left: -900px;
-}
-div.locatie{
-margin-left: 50px;
-}
+
 div.copy{
 margin-left: 250px;
 }

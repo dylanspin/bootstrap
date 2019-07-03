@@ -4,12 +4,6 @@ html{
 body {
 font-family: 'Open Sans', sans-serif;
 }
-.jumbotron{
-  background-color:black;
-  color: white;
-}
-
-
 .page-header{
 margin-top: -5px;
 width: 2000px;
@@ -29,7 +23,7 @@ button.header{
   font-size: 150%;
 }
 button.header:hover{
-background-color: #F31928;
+background-color: #60287A;
 }
 input[type=image].ops{
   height: 100px;
