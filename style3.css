@@ -40,6 +40,15 @@ button.buttons{
 button.buttons:hover{
 background-color: #60287A;
 }
+input[type=submit]{
+  height: 20px;
+  width: 400px;
+  border: none;
+}
+input[type=text]{
+  height: 40px;
+  width: 400px;
+}
 a{
   text-decoration: none;
   color: white;
@@ -47,6 +56,11 @@ a{
 a:hover{
   text-decoration: none;
   color: white;
+}
+label{
+  font-size: 300%;
+  color: white;
+  text-align: right;
 }
 div.skin{
   height: 390px;
@@ -56,12 +70,20 @@ div.skin{
   color: white;
   margin-left: 100px;
 }
+
 .skin:hover{
   border:none;
 }
 div.next{
   text-align: center;
   margin-left: 350px;
+}
+
+div.inlog{
+  height: 600px;
+  width: 80%;
+  margin-left: 450px;
+  color: black;
 }
 div.title{
   margin-top: -70px;
@@ -137,7 +159,11 @@ div.zwart{
 div.zwart2{
   margin-left: 0px;
   position: absolute;
+<<<<<<< 3a9e99c966e75cce54d1da1bba4d8422d04bfa42
   bottom: -1500px;
+=======
+  bottom: -200px;
+>>>>>>> einde loa
   background-color: black;
   color: white;
   height: 300px;
