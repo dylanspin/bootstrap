@@ -33,6 +33,7 @@ button.header{
 }
 button.header:hover{
 background-color: #60287A;
+<<<<<<< HEAD
 }
 input[type=image].ops{
   height: 100px;
@@ -42,6 +43,8 @@ input[type=image].ops{
 input[type=image].ops:hover{
   height: 120px;
   width: 120px;
+=======
+>>>>>>> master
 }
 a{
   text-decoration: none;
@@ -62,10 +65,6 @@ div.title{
 button.locatie_2{
   line-height: 0px;
 }
-div.locatie_news{
-  margin-top: -365px;
-  margin-left: 600px;
-}
 div.hoek{
   height: 40px;
   width: 250px;
@@ -74,7 +73,7 @@ div.hoek{
   z-index: 1;
   border-radius: 0px 0px 10px 0px;
   color: White;
-  background-color:#43ABA7;
+  background-color:#353232;
 }
 div.pic{
   margin-top: -39px;
@@ -102,13 +101,16 @@ div.grijs{
 div.zwart{
   margin-left: 0px;
   position: absolute;
+<<<<<<< HEAD
   bottom: -3950px;
+=======
+  bottom: -3650px;
+>>>>>>> master
   background-color: black;
   color: white;
   height: 300px;
   width: 2000px;
 }
-
 div.locatie{
 margin-left: 50px;
 }

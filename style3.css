@@ -68,7 +68,11 @@ div.skin{
   border: 1px solid white;
   background-color: #232121;
   color: white;
+<<<<<<< HEAD
   margin-left: 100px;
+=======
+  margin-left: 1500px;
+>>>>>>> master
 }
 
 .skin:hover{
@@ -76,7 +80,10 @@ div.skin{
 }
 div.next{
   text-align: center;
+<<<<<<< HEAD
   margin-left: 350px;
+=======
+>>>>>>> master
 }
 
 div.inlog{
@@ -159,11 +166,15 @@ div.zwart{
 div.zwart2{
   margin-left: 0px;
   position: absolute;
+<<<<<<< HEAD
 <<<<<<< 3a9e99c966e75cce54d1da1bba4d8422d04bfa42
   bottom: -1500px;
 =======
   bottom: -200px;
 >>>>>>> einde loa
+=======
+  bottom: -200px;
+>>>>>>> master
   background-color: black;
   color: white;
   height: 300px;

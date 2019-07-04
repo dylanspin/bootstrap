@@ -1,13 +1,15 @@
 html{
   overflow-x:hidden;
 }
-.jumbotron{
-  background-color:black;
-  color: white;
-}
 body {
 font-family: 'Open Sans', sans-serif;
 }
+<<<<<<< HEAD
+body {
+font-family: 'Open Sans', sans-serif;
+}
+=======
+>>>>>>> master
 .page-header{
 margin-top: -5px;
 width: 2000px;
@@ -55,6 +57,9 @@ button.locatie_2{
 div.locatie_news{
   margin-top: -365px;
   margin-left: 600px;
+}
+div.buttons{
+  margin-left: -3000px;
 }
 div.update{
   height: 30px;
