@@ -49,6 +49,14 @@ input[type=text]{
   height: 40px;
   width: 400px;
 }
+input[type=image].ops{
+  height: 180px;
+  width: 180px;
+  border: none;
+}
+input[type=image].ops:hover{
+border: 1px solid white;
+}
 a{
   text-decoration: none;
   color: white;
@@ -68,22 +76,16 @@ div.skin{
   border: 1px solid white;
   background-color: #232121;
   color: white;
-<<<<<<< HEAD
   margin-left: 100px;
-=======
-  margin-left: 1500px;
->>>>>>> master
-}
+  margin-left: 100px;
 
+}
 .skin:hover{
   border:none;
 }
 div.next{
   text-align: center;
-<<<<<<< HEAD
-  margin-left: 350px;
-=======
->>>>>>> master
+  margin-left: 380px;
 }
 
 div.inlog{
@@ -166,15 +168,7 @@ div.zwart{
 div.zwart2{
   margin-left: 0px;
   position: absolute;
-<<<<<<< HEAD
-<<<<<<< 3a9e99c966e75cce54d1da1bba4d8422d04bfa42
   bottom: -1500px;
-=======
-  bottom: -200px;
->>>>>>> einde loa
-=======
-  bottom: -200px;
->>>>>>> master
   background-color: black;
   color: white;
   height: 300px;

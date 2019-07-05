@@ -33,7 +33,6 @@ button.header{
 }
 button.header:hover{
 background-color: #60287A;
-<<<<<<< HEAD
 }
 input[type=image].ops{
   height: 100px;
@@ -43,8 +42,6 @@ input[type=image].ops{
 input[type=image].ops:hover{
   height: 120px;
   width: 120px;
-=======
->>>>>>> master
 }
 a{
   text-decoration: none;
@@ -65,6 +62,17 @@ div.title{
 button.locatie_2{
   line-height: 0px;
 }
+button.buttons{
+  height: 50px;
+  border: 1px solid #60287A;
+  width: 150px;
+  background-color: black;
+  color: white;
+  font-size: 150%;
+}
+button.buttons:hover{
+background-color: #60287A;
+}
 div.hoek{
   height: 40px;
   width: 250px;
@@ -77,6 +85,13 @@ div.hoek{
 }
 div.pic{
   margin-top: -39px;
+}
+div.links{
+  margin-left: -800px;
+}
+div.rechts{
+  margin-top: -50px;
+  margin-left: 400px;
 }
 div.border{
   margin-left: 100px;
@@ -101,11 +116,7 @@ div.grijs{
 div.zwart{
   margin-left: 0px;
   position: absolute;
-<<<<<<< HEAD
   bottom: -3950px;
-=======
-  bottom: -3650px;
->>>>>>> master
   background-color: black;
   color: white;
   height: 300px;
