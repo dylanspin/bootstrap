@@ -4,7 +4,6 @@ html{
 body {
 font-family: 'Open Sans', sans-serif;
 }
-<<<<<<< HEAD
 body {
 font-family: 'Open Sans', sans-serif;
 }
@@ -27,7 +26,7 @@ button.header{
   font-size: 150%;
 }
 button.header:hover{
-background-color: #60287A;
+background-color: #BD2715;
 }
 input[type=image].ops{
   height: 100px;
@@ -65,7 +64,7 @@ div.update{
   margin-top: -10px;
   border-radius: 0px 0px 10px 0px;
   color: White;
-  background-color:#F31928;
+  background-color:#60287A;
 }
 div.border{
   margin-left: 1050px;
@@ -96,7 +95,7 @@ div.mijnheader{
 }
 div.grijs{
   position: static;
-  background-color: #2A2929;
+  background-color:  #2A2322;
   height: 40px;
   width: 2000px;
 }

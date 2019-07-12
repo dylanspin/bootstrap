@@ -11,6 +11,10 @@ width: 2000px;
 .container{
 color: white;
 }
+h1.ops{
+  font-size: 850%;
+  text-align: center;
+}
 h1.groot{
   font-size: 550%;
   color: white;
@@ -27,7 +31,7 @@ button.header{
   font-size: 150%;
 }
 button.header:hover{
-background-color: #60287A;
+background-color: #BD2715;
 }
 button.buttons{
   height: 50px;
@@ -55,7 +59,7 @@ input[type=image].ops{
   border: none;
 }
 input[type=image].ops:hover{
-border: 1px solid white;
+border: 5px solid white;
 }
 a{
   text-decoration: none;
@@ -69,6 +73,9 @@ label{
   font-size: 300%;
   color: white;
   text-align: right;
+}
+div.height{
+  margin-top: 100px;
 }
 div.skin{
   height: 390px;
@@ -109,7 +116,7 @@ div.rechts{
   margin-left: 400px;
 }
 div.locatie_news{
-  margin-left: 450px;
+  margin-left: 650px;
 }
 div.info{
   text-align: center;
@@ -152,9 +159,10 @@ div.mijnheader{
 }
 div.grijs{
   position: static;
-  background-color: #2A2929;
+  background-color: #2A2322;
   height: 40px;
   width: 2000px;
+
 }
 div.zwart{
   margin-left: 0px;
@@ -174,7 +182,6 @@ div.zwart2{
   height: 300px;
   width: 2000px;
 }
-
 div.copy{
 margin-left: 250px;
 }
