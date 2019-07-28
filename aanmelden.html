@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Rainbow-Six-Siege</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="style3.css">
     <link rel="stylesheet" type="tex/css" href="css/bootstrap.css">
@@ -38,17 +39,26 @@
     </div>
 
   <div class="inlog">
-    <h1 class="groot">Inloggen</h1>
+    <h1 class="groot">Aanmelden</h1>
     <div class="input">
       <form class="" action="index.html" method="post">
+        <input class="iText" type="text" id="voornaam" name="voornaam" value="" placeholder="voornaam"><br><br>
+        <input class="iText" type="text" id="achternaam" name="achternaam" value="" placeholder="achternaam"><br><br>
+        <input class="iText" type="text" id="geboortedatum" name="geboortedatum" value="" placeholder="geboortedatum"><br><br>
         <input class="iText" type="text" id="email"name="E-mail" value="" placeholder="E-mail"><br><br>
         <input class="iText" type="text" id="wachtwoord1" name="wachtwoord1" value="" placeholder="wachtwoord"><br><br>
+        <input class="iText" type="text" id="wachtwoord2" name="wachtwoord2" value="" placeholder="wachtwoord"><br><br>
         <br><br><br>
-        <button  class="stuur" type="button" name="stuur" onclick="inlog()">Stuur</button>
+        <button  class="stuur" type="button" name="stuur" onclick="aanmelden()">Stuur</button>
       </form>
-      <div class="infor2">
+      <div class="infor">
+        <h2>Voornaam : </h2>
+        <h2>Achternaam : </h2>
+        <h2>Geboortedatum : </h2>
         <h2>  E-mail : </h2>
         <h2>wachtwoord : </h2>
+        <h2>herhaal wachtwoord : </h2>
+
       </div>
     </div>
 

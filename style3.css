@@ -19,6 +19,10 @@ h1.groot{
   font-size: 550%;
   color: white;
 }
+h2{
+  font-size: 270%;
+  color: white;
+}
 h6.date{
   color: gray;
 }
@@ -32,6 +36,25 @@ button.header{
 }
 button.header:hover{
 background-color: #BD2715;
+}
+button.stuur{
+  font-size: 250%;
+  color: white;
+  border: none;
+  background-color: black;
+  height: 50px;
+  width: 400px;
+}
+button.stuur:hover{
+  background-color: #BD2715;
+}
+button.inlog{
+  background: none;
+  border: none;
+  font-size: 170%;
+}
+button.inlog:hover{
+  font-size: 190%;
 }
 button.buttons{
   height: 50px;
@@ -74,6 +97,20 @@ label{
   color: white;
   text-align: right;
 }
+div.infor{
+  margin-top: -490px;
+  margin-left: -400px;
+}
+div.infor2{
+  margin-top: -250px;
+  margin-left: -300px;
+}
+div.input{
+  margin-top: 100px;
+}
+.iText{
+  font-size: 200%;
+}
 div.height{
   margin-top: 100px;
 }
@@ -84,8 +121,7 @@ div.skin{
   background-color: #232121;
   color: white;
   margin-left: 100px;
-  margin-left: 100px;
-
+  margin-top: 150px;
 }
 .skin:hover{
   border:none;
@@ -116,11 +152,11 @@ div.rechts{
   margin-left: 400px;
 }
 div.locatie_news{
-  margin-left: 650px;
+  margin-left: 450px;
 }
 div.info{
   text-align: center;
-  margin-top: -400px;
+  margin-top: -550px;
 }
 div.hoek{
   height: 60px;
@@ -177,6 +213,15 @@ div.zwart2{
   margin-left: 0px;
   position: absolute;
   bottom: -1500px;
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 2000px;
+}
+div.zwart3{
+  margin-left: 0px;
+  position: absolute;
+  bottom: -500px;
   background-color: black;
   color: white;
   height: 300px;

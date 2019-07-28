@@ -27,6 +27,10 @@ h1.text{
   font-size: 850%;
   text-align: center;
 }
+h1.text2{
+  font-size: 200%;
+  text-align: center;
+}
 button.header{
   height: 50px;
   border: none;
@@ -77,6 +81,14 @@ button.buttons{
 button.buttons:hover{
 background-color: #60287A;
 }
+button.inlog{
+  background: none;
+  border: none;
+  font-size: 170%;
+}
+button.inlog:hover{
+  font-size: 190%;
+}
 div.hoek{
   height: 40px;
   width: 250px;
@@ -87,11 +99,25 @@ div.hoek{
   color: White;
   background-color:#353232;
 }
+div.season{
+  margin-left: -800px;
+  margin-top: 30px;
+  position:sticky;
+  z-index: 1;
+  color: White;
+}
+div.text_loc{
+  margin-top: -250px;
+  margin-left: 600px;
+}
 div.pic{
   margin-top: -39px;
 }
+div.next{
+  margin-left: 500px;
+}
 div.links{
-  margin-left: -800px;
+  margin-left: -400px;
 }
 div.rechts{
   margin-top: -50px;
@@ -119,7 +145,7 @@ div.grijs{
 div.zwart{
   margin-left: 0px;
   position: absolute;
-  bottom: -3950px;
+  bottom: -4200px;
   background-color: black;
   color: white;
   height: 300px;

@@ -28,6 +28,14 @@ button.header{
 button.header:hover{
 background-color: #BD2715;
 }
+button.inlog{
+  background: none;
+  border: none;
+  font-size: 170%;
+}
+button.inlog:hover{
+  font-size: 190%;
+}
 input[type=image].ops{
   height: 100px;
   width: 100px;
@@ -84,6 +92,18 @@ div.news{
   width: 400px;
   height: 100px;
 }
+div.skin{
+  height: 390px;
+  width: 300px;
+  border: 1px solid white;
+  background-color: #232121;
+  color: white;
+  margin-left: -400px;
+  margin-top: -350px;
+}
+.skin:hover{
+  border:none;
+}
 div.mijnheader{
   background-color: black;
   height: 50px;
@@ -101,7 +121,7 @@ div.grijs{
 }
 div.zwart{
   margin-left: -650px;
-  margin-top: 67px;
+  margin-top: 29px;
   background-color: black;
   color: white;
   height: 300px;
