@@ -24,7 +24,6 @@
               <button type="submit" class="header" ><a href="seizoen.html">Seizoenen</a></button>
               <button type="submit" class="header"><a href="operators.html">Operators</a></button>
               <button type="submit" class="header"><a href="maps.html">Maps</a></button>
-              <button type="submit" class="header"><a href="pro.html">Pro league</a></button>
               <button type="submit" class="header"><a href="news.html">News</a></button>
               <button type="submit" class="header"><a href="index.html">Menu</a></button>
             </div>
@@ -32,7 +31,6 @@
             <button type="submit" class="header" ><a href="seizoen.html">Seizoenen</a></button>
             <button type="submit" class="header"><a href="operators.html">Operators</a></button>
             <button type="submit" class="header"><a href="maps.html">Maps</a></button>
-            <button type="submit" class="header"><a href="pro.html">Pro league</a></button>
             <button type="submit" class="header"><a href="news.html">News</a></button>
             <button type="submit" class="header"><a href="index.html">Menu</a></button>
         </div>
@@ -43,17 +41,15 @@
     <div class="input">
       <form class="" action="index.html" method="post">
         <input class="iText" type="text" id="voornaam" name="voornaam" value="" placeholder="voornaam"><br><br>
-        <input class="iText" type="text" id="achternaam" name="achternaam" value="" placeholder="achternaam"><br><br>
-        <input class="iText" type="text" id="geboortedatum" name="geboortedatum" value="" placeholder="geboortedatum"><br><br>
+        <input class="iText" type="date" id="geboortedatum" name="geboortedatum" value="" placeholder="geboortedatum"><br><br>
         <input class="iText" type="text" id="email"name="E-mail" value="" placeholder="E-mail"><br><br>
-        <input class="iText" type="text" id="wachtwoord1" name="wachtwoord1" value="" placeholder="wachtwoord"><br><br>
-        <input class="iText" type="text" id="wachtwoord2" name="wachtwoord2" value="" placeholder="wachtwoord"><br><br>
+        <input class="iText" type="password" id="wachtwoord1" name="wachtwoord1" value="" placeholder="wachtwoord"><br><br>
+        <input class="iText" type="password" id="wachtwoord2" name="wachtwoord2" value="" placeholder="wachtwoord"><br><br>
         <br><br><br>
         <button  class="stuur" type="button" name="stuur" onclick="aanmelden()">Stuur</button>
       </form>
       <div class="infor">
-        <h2>Voornaam : </h2>
-        <h2>Achternaam : </h2>
+        <h2>Naam : </h2>
         <h2>Geboortedatum : </h2>
         <h2>  E-mail : </h2>
         <h2>wachtwoord : </h2>
@@ -61,8 +57,11 @@
 
       </div>
     </div>
-
+  </div>
+  <div class="melding">
     <p id="print"></p>
+    <p id="print2"></p>
+    <p id="print3"></p>
   </div>
 
     <div class="zwart3"><br>

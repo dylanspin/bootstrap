@@ -112,6 +112,7 @@ div.text_loc{
 }
 div.pic{
   margin-top: -39px;
+  margin-left: -300px;
 }
 div.next{
   margin-left: 500px;
@@ -151,9 +152,21 @@ div.zwart{
   height: 300px;
   width: 2000px;
 }
+div.zwart2{
+  margin-left: -400px;
+  position: absolute;
+  bottom: -3600px;
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 2000px;
+}
 div.locatie{
 margin-left: 50px;
 }
 div.copy{
 margin-left: 250px;
+}
+div.copy2{
+margin-left: 400px;
 }

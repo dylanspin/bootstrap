@@ -97,8 +97,12 @@ label{
   color: white;
   text-align: right;
 }
+div.melding{
+  text-align: center;
+  margin-top: 110px;
+}
 div.infor{
-  margin-top: -490px;
+  margin-top: -440px;
   margin-left: -400px;
 }
 div.infor2{
