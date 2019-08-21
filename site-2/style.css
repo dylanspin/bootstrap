@@ -1,0 +1,19 @@
+body{
+  margin: 0px;
+}
+nav.navbar{
+  font-size: 200%;
+}
+h1.header{
+
+}
+button.header{
+  font-size: 70%;
+  border: none;
+  background-color: white;
+}
+div.streep{
+  height: 5px;
+  width: 200%;
+  background-color: black;
+}
