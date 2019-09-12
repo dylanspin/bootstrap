@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+  font-family: "Roboto",sans-serif;
+  margin: 0;
+  background-color: #1c1818;
+  color: white;
+  text-decoration: none;
+}
+.SEASON{
+  background:linear-gradient(86deg, rgba(18,17,17,1) 2%, rgba(51,53,53,1) 66%, rgba(13,15,15,1) 100%);
+}
+.center{
+  text-align: center;
+}
+.blauw{
+  background-color:#36A9E0;
+  color: white;
+}
+.jumbotron{
+  background: none;
+  height: 0px;
+}
+.enter{
+  height: 70px;
+}
+.kop{
+  font-size: 6em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 80px;
+}
+
+
+/*header*/
+.mijnheader{
+  z-index: 100;
+  transform:  translate(0,-40px);
+  height: 80px;
+  width: 100vw;
+  background-color: black;
+  position: fixed;
+  font-size: 150%;
+  font-weight: 600;
+}
+.grijs{
+  width: 100vw;
+  height: 30px;
+  background-color:#1c1818;
+}
+
+.intro{
+  position: absolute;
+  z-index: 50;
+  transform: translate(300px,10px);
+  text-align: center;
+  font-size: 700%;
+  color: white;
+  text-shadow:1px 1px black;
+}
+
+
+/*carousel*/
+.container{
+  position: relative;
+}
+.main_slider{
+  top:60px;
+  width: 100vw;
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%,-50px);
+}
+.ops_slider{
+  top:60px;
+  width: 10vw;
+  float: left;
+  width:25%;
+  padding: 10px;
+  left: 50%;
+  transform: translate(-50%,-43px);
+  transition: 0.3s;
+}
+.ops_slider:hover{
+  transform: scale(1.05,1.05)  translate(-50%,-43px);
+}
+
+.image{
+  width:100vw; height:400px;
+}
+
+
+/*laatste_nieuws*/
+.laatste_nieuws{
+  margin-top: 650px;
+  height: 600px;
+  width: 100vw;
+  background-image: url("pic/pic5.jpg");
+}
+.loc_nieuws{
+  margin-top: 10px;
+  transform: translate(0px,-380px);
+  margin-left: 45%;
+}
+.nieuws{
+  transition: 0.3s;
+  font-size: 150%;
+  background-color: black;
+  height: 150px;
+  width: 500px;
+}
+.nieuws:hover{
+  transform: scale(1.05,1.05);
+  box-shadow: 0 4px 8px 0 #36A9E0, 0 6px 20px 0 #3BBBF7;
+}
+.nieuws_text{
+  padding-left: 8px;
+  height: 150px;
+  width: 300px;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+}
+.datum{
+  padding-left: 8px;
+  position: absolute;
+  top: 120px;
+  color: gray;
+  font-size: 80%;
+}
+.wat{
+  position: absolute;
+  top:0px;
+  left:200px;
+  height: 30px;
+  width: 100px;
+  font-size: 110%;
+  font-weight: 600;
+  padding:0px 6px;
+  border-radius: 0px 0px 5px 0px;
+}
+.wat_pic{
+  position: relative;
+  height: 150px;
+  width: 200px;
+}
+.text{
+  font-size: 240%;
+  font-weight: 600;
+}
+.position_text_elite{
+  transform: translate(30px,10px);
+}
+.elite_skin{
+  transform: translate(0px, -36px);
+  height: 400px;
+  width: 100%;
+  border:none;
+}
+.skin{
+  transition: 0.3s;
+  height: 460px;
+  width: 254px;
+  border:none;
+  background-color: #1c1818;
+  transform: translate(80px,90px);
+}
+.skin:hover{
+  box-shadow: 0 4px 8px 0 #36A9E0, 0 6px 20px 0 #3BBBF7;
+  transform: scale(1.0,1.0) translate(80px,110px);
+}
+
+
+/*ops*/
+.ops{
+  height: 250px;
+  width: 100vw;
+  background-color: #1c1818;
+  text-align: center;
+}
+
+.ops_center{
+  transform: translate(-25%,0px);
+}
+
+.ops_image{
+  transform: translate(0px,25px);
+  height: 200px;
+  width: 250px;
+  margin-left: 10px;
+}
+/*SEASON*/
+.well{
+  position: absolute;
+  left: 50%;
+  width: 80%;
+  height: 58px;
+  border: none;
+  border-radius: 1%;
+  background-color: rgba(28, 24, 24,0.6);
+  font-size: 3em;
+  font-weight: 600;
+  text-align: center;
+  line-height: 40px;
+  transform: translate(-50%, 50px);
+}
+.seasons{
+  position: relative;
+}
+.season{/*moet breeder op mobiel*/
+  height: 250px;
+  width: 60%;
+  background-color: #1D1A1A;
+  transition: 0.3s;
+  transform: translate(33.5%,0px);
+  margin-top: 80px;
+}
+.season:hover{
+  transform: scale(1.05,1.05) translate(33.5%,0px);
+  box-shadow: 0 4px 8px 0 #36A9E0, 0 6px 20px 0 #3BBBF7;
+  border:none;
+}
+.season_img{
+  transform: translate(-1px,-1px);
+  width: 300px;
+  height: 251px;
+}
+.season_naam{ /*moet nog de font veranderen voor mobiel*/
+  position: absolute;
+  left: 330px;
+  top: 0%;
+  font-size: 3em;
+  font-weight: 700;
+  color: white;
+}
+.season_text{ /*moet nog de font veranderen voor mobiel*/
+  padding-right: 30px;
+  position: absolute;
+  left: 330px;
+  top:35%;
+  font-size: 150%;
+  font-weight: 400;
+}
+/*nieuws*/
+
+
+
+/*operators*/
+.ops_vak{
+  transform: translate(200px,100px);
+}
+.ops_img{
+  transition: 0.3s;
+  height: 13vw;
+  width: 13vw;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.ops_img:hover{
+  transform:scale(1.10,1.10);
+}
+
+
+
+/*maps*/
+.map_img{
+  margin-top: 2px;
+  transform: translate(-1px,-1px);
+  height: 248px;
+  width: 500px;
+}
+.map_naam{ /*moet nog de font veranderen voor mobiel*/
+  background-color: #1D1A1A;
+  width: 200px;
+  border-radius: 0% 0% 0% 30%;
+  padding-left: 15px;
+  text-align: center;
+  position: absolute;
+  left: 300px;
+  top: 0px;
+  font-size: 2em;
+  font-weight: 700;
+  color: white;
+}
+.map_text{ /*moet nog de font veranderen voor mobiel*/
+  padding-right: 30px;
+  position: absolute;
+  left: 530px;
+  top:5%;
+  font-size: 120%;
+  font-weight: 400;
+}
+
+/*footer*/
+footer{
+  background-color: black;
+  height: 400px;
+  width: 100vw;
+}
+.footer_cator{
+  transform: translate(200px, 90px);
+  float: left;
+}
+.footer_cator2{
+  transform: translate(110px, 90px);
+}
+.social{
+  transform: translate(0px , 20px);
+  text-align: center;
+}
+.copy{
+  font-size: 100%;
+  transform: translate(0px, 150px);
+}
+button.logo{
+  transition: 0.3s;
+  height: 50px;
+  width: 50px;
+  padding: 1px;
+  background-color: black;
+  border: none;
+}
+button.logo:hover{
+  background-color: black;
+  border: 1px solid #36A9E0;
+  border-radius: 10%;
+  transform: scale(1.15 , 1.15);
+}
+
+/*A*/
+a{
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+a.a:hover{
+  color: #1c1818;
+}
+/*buttons*/
+button.header{
+  transition: transform 0.3s , background-color 0.3s;
+  height: 50px;
+  width: 175px;
+  background-color: black;
+  font-size: 110%;
+  border:none;
+}
+button.header:hover{
+  border:none;
+  background-color: #36A9E0;
+  transform: scale(1.05,1.05);
+}
+button.inlog{
+  color: white;
+  padding-bottom: 10px;
+  background-color: #1c1818;
+  border:none;
+  border-radius: 5%;
+  height: 30px;
+  width: 120px;
+}
+button.inlog:hover{
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
