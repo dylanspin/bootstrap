@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 body{
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: "Roboto",sans-serif;
   margin: 0;
   background-color: #1c1818;
@@ -28,6 +30,32 @@ body{
   font-weight: 600;
   text-align: center;
   margin-top: 80px;
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .season_text{
+    font-size: 4vw;
+    font-weight: 400;
+  }
+  .map_text{
+    visibility: hidden;
+  }
+  .map_img{
+    width: 100%;
+  }
+}
+
+@media only screen/*Ipad*/
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+}
+
+@media only screen/*Ipad2*/
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
 }
 
 
@@ -179,7 +207,7 @@ body{
 }
 
 .ops_center{
-  transform: translate(-25%,0px);
+  transform: translate(-25%,25px);
 }
 
 .ops_image{
@@ -208,14 +236,14 @@ body{
 }
 .season{/*moet breeder op mobiel*/
   height: 250px;
-  width: 60%;
+  width: 70vw;
   background-color: #1D1A1A;
   transition: 0.3s;
-  transform: translate(33.5%,0px);
+  transform: translate(21.5%,0px);
   margin-top: 80px;
 }
 .season:hover{
-  transform: scale(1.05,1.05) translate(33.5%,0px);
+  transform: scale(1.05,1.05) translate(21.5%,0px);
   box-shadow: 0 4px 8px 0 #36A9E0, 0 6px 20px 0 #3BBBF7;
   border:none;
 }
@@ -228,7 +256,7 @@ body{
   position: absolute;
   left: 330px;
   top: 0%;
-  font-size: 3em;
+  font-size: 3vw;
   font-weight: 700;
   color: white;
 }
@@ -236,22 +264,47 @@ body{
   padding-right: 30px;
   position: absolute;
   left: 330px;
-  top:35%;
-  font-size: 150%;
+  top:23%;
+  font-size: 2vw;
   font-weight: 400;
 }
 /*nieuws*/
+.nieuws_area{
+  position: absolute;
+}
+.nieuw{
+  position: relative;
+  margin-top: 50px;
+  left: 20%;
+  height:300px;
+  width: 70vw;
+  background-color: black;
+  border: 1px solid gray;
+  transition: 0.3s;
+}
+.nieuw:hover{
+  transform: scale(1.05,1.05);
+}
+.nieuw_naam{
+  position: relative;
+  left: 40%;
+  font-size: 3vw;
+  font-weight: 600;
+}
+.nieuw_text{
 
+}
 
 
 /*operators*/
 .ops_vak{
-  transform: translate(200px,100px);
+  transform: translate(0px,100px);
+  text-align: center;
 }
 .ops_img{
   transition: 0.3s;
-  height: 13vw;
-  width: 13vw;
+  height: 200px;
+  width: 200px;
   margin-top: 10px;
   margin-left: 10px;
 }
@@ -287,7 +340,7 @@ body{
   position: absolute;
   left: 530px;
   top:5%;
-  font-size: 120%;
+  font-size: 1.5vw;
   font-weight: 400;
 }
 
