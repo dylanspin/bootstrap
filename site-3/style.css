@@ -31,16 +31,48 @@ body{
   text-align: center;
   margin-top: 80px;
 }
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media(max-device-width: 375px) {
+
   .season_text{
     font-size: 4vw;
     font-weight: 400;
   }
+  .map_text_respons{
+      visibility: hidden;
+  }
+  .season{
+    width: 80vw!important;
+  }
+  .season_text{
+    font-size: 200% !important;
+  }
   .map_text{
-    visibility: hidden;
+    font-size: 200%!important;
+    left: 370px !important;
+    top: 50px !important;
   }
   .map_img{
-    width: 100%;
+    width: 350px !important;
+  }
+  input[type="text"]{
+    width: 40%;
+    font-size: 200%;
+  }
+  textarea{
+    width: 75.5%;
+    height: 200px;
+    font-size: 200%;
+  }
+  div.nieuw{
+    width: 80vw!important;
+  }
+  .nieuw_naam{
+    width: 200px;
+    transform: translate(100px,0px);
+  }
+  div.nieuw{
+    width: 700px!important;
+    font-size: 200%;
   }
 }
 
@@ -194,10 +226,48 @@ and (orientation : landscape) {
 }
 .skin:hover{
   box-shadow: 0 4px 8px 0 #36A9E0, 0 6px 20px 0 #3BBBF7;
-  transform: scale(1.0,1.0) translate(80px,110px);
+  transform: scale(1.05,1.05) translate(80px,90px);
 }
 
-
+/*comments*/
+.comments{
+  width: 100vw;
+  background:linear-gradient(270deg, rgba(15,15,15,1) 2%, rgba(13,13,13,1) 51%, rgba(10,10,10,1) 100%);
+}
+.media{
+  transform: translate(20%,0px);
+}
+.comment_kop{
+  transform: translate(13%,50px);
+  font-size: 6em;
+  font-weight: 600;
+  margin-top: 40px;
+  background-color: black;
+  height: 100px;
+  width: 80vw;
+  line-height: 100px;
+  border-radius:2%;
+}
+.comment{
+  transform: translate(33%,0px);
+  margin-top: 20px;
+  height: 170px;
+  width: 60vw;
+}
+.comment_naam{
+  font-size: 150%;
+}
+.comment_text{
+  font-size: 130%;
+  font-weight: 400;
+}
+.ster{
+  padding-left: 50px;
+}
+.reageer{
+  transform: translate(25%,0px);
+  width: 80vw;
+}
 /*ops*/
 .ops{
   height: 250px;
@@ -210,12 +280,37 @@ and (orientation : landscape) {
   transform: translate(-25%,25px);
 }
 
-.ops_image{
-  transform: translate(0px,25px);
-  height: 200px;
-  width: 250px;
-  margin-left: 10px;
+/*aanmelden*/
+.inlog{
+  height: 65vh;
+  width: 50vw;
 }
+.input{
+  left: -35%;
+  position: relative;
+}
+.melding{
+  margin-top: 70px;
+}
+.iText{
+  margin-top: 10px;
+  color: black;
+  height: 40px;
+  width: 200px;
+  font-size: 130%;
+}
+label{
+  width: 300px;
+  font-size: 200%;
+  font-weight: 500;
+}
+.input{
+  transform: translate(600px,50px);
+}
+.inlog_button{
+  transform: translate(330px,100px);
+}
+
 /*SEASON*/
 .well{
   position: absolute;
@@ -237,6 +332,7 @@ and (orientation : landscape) {
 .season{/*moet breeder op mobiel*/
   height: 250px;
   width: 70vw;
+  border-radius: 12% 0% 0% 12%;
   background-color: #1D1A1A;
   transition: 0.3s;
   transform: translate(21.5%,0px);
@@ -248,9 +344,9 @@ and (orientation : landscape) {
   border:none;
 }
 .season_img{
-  transform: translate(-1px,-1px);
   width: 300px;
-  height: 251px;
+  height: 250px;
+  border-radius: 10% 0% 0% 10%;
 }
 .season_naam{ /*moet nog de font veranderen voor mobiel*/
   position: absolute;
@@ -270,29 +366,47 @@ and (orientation : landscape) {
 }
 /*nieuws*/
 .nieuws_area{
-  position: absolute;
+  transform: translate(15%,0px);
 }
 .nieuw{
-  position: relative;
   margin-top: 50px;
-  left: 20%;
-  height:300px;
-  width: 70vw;
-  background-color: black;
-  border: 1px solid gray;
+  height:250px;
+  width: 68vw;
+  border-radius: 10% 0% 0% 10%;
+  background-color: #0F0F0F;
   transition: 0.3s;
 }
 .nieuw:hover{
+  box-shadow: 0 4px 8px 0 #36A9E0, 0 6px 20px 0 #3BBBF7;
   transform: scale(1.05,1.05);
+  border: none;
 }
 .nieuw_naam{
+  font-family:inherit;
   position: relative;
-  left: 40%;
+  z-index: 100;
+  top: -250px;
+  left: 35%;
   font-size: 3vw;
-  font-weight: 600;
+  font-weight: 900;
+}
+.nieuw_datum{
+  transform: translate(360px,-190px);
+  font-size: 1.5vw;
+  font-weight: 300;
+  color: gray;
 }
 .nieuw_text{
-
+  margin-top: 10px;
+  color: white;
+  font-size: 1.5vw;
+  transform: translate(360px,-250px);
+}
+.nieuw_img{
+  transform: translate(-10px, 0px);
+  height: 250px;
+  width: 350px;
+  border-radius: 10% 0% 0% 10%;
 }
 
 
@@ -318,9 +432,10 @@ and (orientation : landscape) {
 /*maps*/
 .map_img{
   margin-top: 2px;
-  transform: translate(-1px,-1px);
-  height: 248px;
+  transform: translate(-1px,-2px);
+  height: 250px;
   width: 500px;
+  border-radius: 10% 0% 0% 10%;
 }
 .map_naam{ /*moet nog de font veranderen voor mobiel*/
   background-color: #1D1A1A;
@@ -418,4 +533,19 @@ button.inlog:hover{
   text-decoration: none;
   background-color: white;
   color: black;
+}
+button.next{
+  height: 75px;
+  width: 75px;
+  border-radius: 10%;
+  background-color: #1c1818;
+  border: 5px solid white;
+  transition: 0.3s;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+button.next:hover{
+  transform: scale(1.1);
+  background-color: #36A9E0;
+  border: none;
 }
